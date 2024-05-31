@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/sportEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints="sports"
+        android:baselineAligned="false"
+        android:hint="@string/ingrese_el_deporte_a_entrenar"
+        android:inputType="text"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/timeEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:autofillHints="time"
+        android:baselineAligned="false"
+        android:hint="@string/ingrese_el_tiempo_en_minutos"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/showButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:text="@string/mostrar_entrenamiento" />
+
+</LinearLayout>
